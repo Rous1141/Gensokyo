@@ -1,0 +1,573 @@
+.background
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 5%;
+}
+
+.navBar
+{
+  font-family: 'Common Pixel', sans-serif;
+  border-bottom: solid;
+  border-width: 3px;
+}
+
+
+.button
+{
+  border-left: solid;
+  border-color: inherit;
+  border-radius: 0px;
+}
+
+.button:last-child
+{
+  border-right: solid;
+  border-color: inherit;
+}
+
+.button a
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+.container
+{
+  height: 100%;
+  width: 80%;
+  margin-top: 5%;
+  margin-left:10%;
+  border: solid;
+  padding: 2% 2% 2% 2%;
+}
+
+.list
+{
+  height: 100%;
+  width: 100%;
+  margin-top: 1%;
+  margin-left:5%;
+}
+
+.form
+{
+  width: 80%;
+}
+
+.bar
+{
+  margin-left: 20%;
+}
+.bar button
+{
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+.title
+{
+  text-align: center;
+  border-bottom: solid;
+  border-width: 3px;
+  padding: 1% 1% 1% 1%;
+}
+
+.user
+{
+  border-bottom: solid dimgray;
+}
+
+.update
+{
+  margin-right: 1%;
+}
+
+.image
+{
+  width: 200%;
+  display: inline-block;
+  border: solid;
+}
+
+.card
+{
+  display: flex;
+  width: 80%;
+  margin:auto;
+  border: solid;
+  border-width: 2px;
+  margin-top: 5%;
+  padding: 1% 1% 1% 1%;
+}
+
+.card:hover
+{
+  scale: 110%;
+  transition: all 0.5s ease;
+}
+
+
+
+.content
+{
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+  width: 200%;
+}
+
+.extraDetail
+{
+  margin-left: 5%;
+}
+
+.extraDetail .buttonEx
+{
+  background-color: red;
+  margin-top: 5%;
+}
+
+
+.buttonEx a
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+.buttonEx:hover
+{
+  color: black; 
+  background-color: white !important;
+}
+
+.test
+{
+  padding-top: 100px;
+  border: solid;
+  border-color: red;
+  border-width: 100px;
+}
+
+.overlay
+{
+  position: fixed;
+  width: 1000%;
+  background-color: linear-gradient(120deg, rgba(0,0,0,0.9) 0%, rgba(110,110,110,0.9) 50%, rgba(0,0,0,0.9) 100%);
+}
+
+.cardDetail
+{
+  display: block;
+  width: 90vw;
+  height:auto;
+  margin:auto;
+  border: solid;
+  border-width: 2px;
+  margin-top: 1%;
+  padding: 1% 1% 1% 1%;
+}
+
+.cardDetail .image
+{
+  width: 70%;
+  height: 70%;
+  margin-left: 15%;
+}
+
+.cardDetail .content
+{
+  font-family: monospace;
+  width:auto;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.cardDetail .h1
+{
+  font-family: 'Dancing Script';
+  font-size: 80px;
+  padding-bottom: 1%;
+  margin-left: 25%;
+  border: none;
+}
+
+.updateButton .buttonEx
+{
+  display: flex;
+  background-color: red;
+  margin: auto;
+  justify-content: center;
+}
+
+.deleteButton .buttonEx
+{
+
+  display: flex;
+  background-color: red;
+  margin: auto;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.info
+{
+  display: flex;
+  border-top: solid;
+  border-width: 3px;
+  width: 122%;
+  justify-content: center;
+}
+
+.info .page
+{
+  padding-top: 2%;
+  padding-right: 60px;
+}
+
+.cardDetail .extraDetail
+{
+  border-top: solid;
+  width: 100%;
+  margin:auto;
+  padding-left: 2%;
+  font-size: 2vw;
+  text-align: left;
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border-bottom: solid;
+}
+
+.buttonEnd
+{
+  margin-top: 2%;
+}
+
+.buttonEnd .buttonSubmit
+{
+  display: block;
+  margin:auto;
+  margin-top: 5%;
+  width: 80%;
+  font-weight: bold;
+}
+
+.buttonSubmit:hover
+{
+  color: black; 
+  background-color: white !important;
+}
+
+
+.contactPage
+{
+  position: inherit;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.contactDetails
+{
+  margin-left: 2%;
+}
+
+.box
+{
+  display: inline-block;
+  text-align: center;
+  border: solid;
+  width: 15vw;
+  height: 20vh;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  padding-bottom: 45px;
+}
+
+.box:hover
+{
+  scale:110%;
+}
+
+.box a
+{
+  text-decoration: none;
+  color: unset;
+}
+
+.box img
+{
+  width: 80%;
+  height: 80%;
+}
+
+.link
+{
+    padding-bottom: 20px;
+}
+
+.form
+{
+  width: 50%;
+  margin:auto;
+  border-radius: 15px;
+  float: right;
+  margin-right: 30px;
+  padding-left: 1%;
+  padding-bottom: 4%;
+  border: solid;
+
+}
+
+.title
+{
+  text-align: center;
+  font-size: 2vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+input[type=text]
+{
+  padding-bottom: 5px;
+  padding-top: 10px;
+  margin: 8px;
+  display: inline-block;
+  border:none;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  background: transparent;
+  outline: none;
+}
+
+
+.email
+{
+  width: 80%;
+  margin-left: 10px;
+}
+
+
+.yourname
+{
+  width: 30.7%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.address
+{
+  width: 78%;
+  margin-left: 10px;
+}
+
+.submit
+{
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10%;
+  margin-left: 25%;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.submit:hover
+{
+  background-color:darkgray !important;
+  font-style: italic;
+}
+
+.aboutCard
+{
+  width: 80%;
+  margin:auto;
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+
+.google
+{
+  width: 10%;
+  margin:auto;
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
+
+.footer
+{
+  display: block;
+  position: fixed;
+  text-align: right;
+  bottom: 0;
+  left: 0;
+  padding: 0.5%;
+  width: 99%;
+  border-style: solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-width: 5px;
+}
+
+.footer .buttonEx
+{
+  display: inline;
+  float: left;
+  margin-left: 1.5%;
+}
+
+
+.footer footer
+{
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 800px) 
+{
+  .navBar .head
+  {
+    position: fixed;
+    opacity: 0;
+
+  }
+.navBar .button a
+{
+  display: block;
+  width: 100%;
+  font-size: 2vw;
+  margin-right: none;
+}
+
+
+.extraDetail
+{
+  margin: auto;
+  width: 100%;
+}
+
+.extraDetail .buttonEx
+{
+  background-color: red;
+}
+
+
+.form
+{
+  width: 80%;
+  margin:auto;
+  border-radius: 15px;
+  float: none;
+  padding-bottom: 4%;
+  margin-bottom: 5%;
+  border: solid;
+}
+
+.card
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.image
+{
+  display: block;
+  width: 100%;
+}
+
+.yourname
+{
+  width: 10%;
+  
+}
+.address
+{
+  width: 75%;
+}
+  .contactPage
+  {
+    padding-bottom: 10%;
+  }
+  .link
+  {
+    padding: 0;
+    padding-bottom: 7%;
+    margin: auto;
+  }
+ .contactPage a
+ {
+    font-size: 1vh;
+ }
+ .contactDetails
+ {
+  margin: auto;
+  padding-left: 5%;
+ }
+
+ .box
+ {
+    height: 10vh;
+    width: 30%;
+    padding-left: 4%;
+    padding-right: 4%;
+ }
+
+.cardDetail .h1
+{
+  font-family: 'Dancing Script';
+  font-size: 10px;
+  padding-bottom: 1%;
+  margin-left: 25%;
+  border: none;
+}
+
+.cardDetail
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height:auto;
+  border: solid;
+  border-width: 2px;
+  margin-top: 1%;
+  padding: 1% 1% 1% 1%;
+}
+
+.cardDetail .image
+{
+  width: 70%;
+  height: 70%;
+}
+
+.cardDetail .page
+{
+  display: flex;
+  width: 100%;
+}
+
+.cardDetail .content
+{
+  font-family: monospace;
+  width:auto;
+  text-align: center;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+
+}
